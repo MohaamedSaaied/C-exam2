@@ -56,7 +56,7 @@ namespace C_exam2
                 qindex++;
             }
             Console.WriteLine($" Your Grade is {totalMarks} From {fullmark} ");
-            Console.WriteLine($" Your Time is {TimeOfExam - DateTime.Now} ");
+            Console.WriteLine($" Your Time is {DateTime.Now - TimeOfExam} ");
             Console.WriteLine(" Thank You ");
         }
         }
